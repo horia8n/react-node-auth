@@ -1,0 +1,59 @@
+html, body {
+  min-height: 100%;
+  min-width: 100%;
+  height: 100%; }
+
+body {
+  background-image: linear-gradient(to right, whitesmoke, rgba(166, 160, 165, 0.5), whitesmoke);
+  background-color: transparent; }
+
+#root {
+  display: block;
+  min-height: 100%;
+  height: 100%; }
+
+h3 {
+  width: 100%;
+  text-align: center;
+  margin-top: 60px;
+  color: #888; }
+
+.container {
+  height: 100%;
+  min-height: 100%;
+  background-color: #fff;
+  border-left: 1px solid #3f03bc;
+  border-right: 1px solid #3f03bc;
+  box-shadow: 0 0 14px 2px #ccc; }
+
+nav {
+  background-image: linear-gradient(to right, #7000ff, rgba(132, 80, 255, 0.98), #7000ff);
+  background-color: inherit; }
+  nav .nav-wrapper .brand-logo {
+    margin-left: 10px; }
+
+.row {
+  margin-top: 60px;
+  text-align: center; }
+  .row .col.s4 {
+    margin: 0 auto;
+    float: none;
+    text-align: right;
+    border: 1px solid #5500f2;
+    padding: 20px;
+    box-shadow: 0 1px 0 0 #5800f8; }
+    .row .col.s4 fieldset {
+      border: 0;
+      margin: 0;
+      padding: 0; }
+    .row .col.s4 input:focus {
+      border-bottom: 1px solid #5500f2;
+      box-shadow: 0 1px 0 0 #5500f2; }
+    .row .col.s4 button.btn {
+      background-image: linear-gradient(to right, rgba(74, 10, 194, 0.45), rgba(80, 0, 229, 0.8), rgba(74, 10, 194, 0.45));
+      background-color: transparent;
+      border-bottom: 1px solid #5000e5;
+      box-shadow: 0 1px 0 0 rgba(80, 0, 229, 0.44);
+      font-size: 12px; }
+
+/*# sourceMappingURL=App.css.map */
